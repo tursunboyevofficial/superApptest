@@ -1,0 +1,129 @@
+.wrapper {
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #222;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  
+  .card {
+    background: #f7f9fa;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #e3e8ee;
+  
+    h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+  
+      &:focus {
+        outline: none;
+        border-color: #17b365;
+      }
+    }
+  
+    button {
+      padding: 10px;
+      background: #17b365;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.3s ease;
+  
+      &:hover {
+        background: #129b54;
+      }
+    }
+  }
+  
+  .cancelBtn {
+    background: #eee !important;
+    color: #444 !important;
+  
+    &:hover {
+      background: #ddd !important;
+    }
+  }
+  
+  .subjectList {
+    margin-top: 16px;
+  
+    li {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-bottom: 6px;
+      font-size: 14px;
+  
+      button {
+        margin-left: 8px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+  
+        &.editBtn {
+          color: #2980b9;
+  
+          &:hover {
+            color: #1c5d91;
+          }
+        }
+  
+        &.removeBtn {
+          color: #e74c3c;
+  
+          &:hover {
+            color: #c0392b;
+          }
+        }
+      }
+    }
+  }
+  .nextButtonBox {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .nextButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

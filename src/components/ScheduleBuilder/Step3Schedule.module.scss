@@ -1,0 +1,142 @@
+// Step3Schedule.module.scss
+.wrapper {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .gradeBlock {
+    margin-bottom: 40px;
+  }
+  
+  .classList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .classItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex: 1 1 300px;
+  }
+  
+  .scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+  
+    p {
+      margin: 0 0 4px;
+    }
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+  
+    button {
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+  }
+  
+.wrapper {
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    color: #333;
+  
+    h2 {
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .gradeBlock {
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  }
+  
+  .classList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .classItem {
+    flex: 1 1 300px;
+    background-color: #fafafa;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: #007b83;
+    }
+  }
+  
+  .scheduleTable {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      vertical-align: top;
+    }
+  
+    th {
+      background-color: #f0f0f0;
+      font-weight: 600;
+    }
+  
+    td p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  
+    button {
+      padding: 10px 18px;
+      font-size: 15px;
+      font-weight: 500;
+      background-color: #007b83;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #005f66;
+      }
+    }
+  }
+  

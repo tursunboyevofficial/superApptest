@@ -1,0 +1,83 @@
+.wrapper {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .scheduleWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tableCard {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #f9f9f9;
+  
+    h3 {
+      margin-bottom: 10px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    th {
+      background-color: #e6e6e6;
+      font-weight: bold;
+    }
+  
+    td span {
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+  
+  .actions {
+    margin-top: 30px;
+    text-align: left;
+  
+    button {
+      padding: 10px 20px;
+      background-color: #ccc;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #bbb;
+      }
+    }
+  }
+  tbody tr:nth-child(1) td {
+    background-color: #e0f7fa;
+  }
+  tbody tr:nth-child(2) td {
+    background-color: #f1f8e9;
+  }
+  tbody tr:nth-child(3) td {
+    background-color: #fff8e1;
+  }
+  tbody tr:nth-child(4) td {
+    background-color: #fce4ec;
+  }
+  tbody tr:nth-child(5) td {
+    background-color: #ede7f6;
+  }
