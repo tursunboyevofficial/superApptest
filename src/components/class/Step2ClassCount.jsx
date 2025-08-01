@@ -29,7 +29,7 @@ const Step2ClassCount = ({ data, setData, onNext, onBack }) => {
 
   return (
     <div className={s.wrapper}>
-      <h2 className={s.title}>2-bosqich: Har sinfda nechta sinf bor?</h2>
+      <h2 className={s.title}>2-bosqich: Sinflar sonini kiriting !</h2>
 
       <div className={s.grid}>
         {[1, 2, 3, 4].map((grade) => (
